@@ -13,7 +13,8 @@ public class chromerlaunch {
 	System.setProperty("Webdriver.chrome.driver", "C:\\Users\\Asus\\Downloads\\chromedriver.exe");
 	
 	driver.get("wwww.google.com");
-	driver.manage().window().maximize();
+
+	
 	driver.close();
 	
 	}
