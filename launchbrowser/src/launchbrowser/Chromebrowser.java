@@ -12,7 +12,7 @@ public class Chromebrowser {
 		
 			driver.get("https://www.google.com/");
 			System.out.println("browser launch successfully");
-		
+			driver.close();
 	}
 
 }
